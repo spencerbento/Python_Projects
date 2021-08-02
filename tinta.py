@@ -1,0 +1,6 @@
+n1 = int(input('Digite a altura da parede em metros: '))
+n2 = int(input('Digite a largura da parede em metros: '))
+a = (n1*n2)
+t = (a/2)
+print('A área total da parede é de {} metros²'.format(a))
+print('Você precisará de {} litros de tinta'.format(t))
